@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: circleci/node:10.15-browsers
     environment:
-      AWSCLI_LATEST_VERSION: 1.16.257
+      AWSCLI_LATEST_VERSION: 1.16.258
     steps:
       - checkout
       - setup_remote_docker: 
